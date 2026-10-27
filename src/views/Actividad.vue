@@ -19,71 +19,68 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Cuestionario sobre planificación y control de proyectos',
       titulo: 'Cuestionario',
       introduccion:
-        '<b>Objetivo:</b> evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b>Objetivo:</b> afianzar la comprensión de los conceptos y procedimientos relacionados con la construcción de la EDT, la secuenciación de actividades, la estimación de duraciones y recursos, la elaboración del cronograma y presupuesto, el seguimiento del desempeño, el análisis del valor ganado y el control de cambios.',
       barajarPreguntas: false,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',
       preguntas: [
         {
           id: 1,
-          texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+          texto: '¿Qué representa la Estructura de Desglose del Trabajo (EDT)?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Una lista cronológica de actividades.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Una representación jerárquica del alcance.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Un registro de costos reales.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Un informe de desempeño.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. <em>Board</em> del <em>software</em> EAGLE.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 2,
-          texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+          texto: '¿Qué establece la regla del 100 % en la EDT?',
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'Incluye todo el alcance aprobado.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Asigna todos los recursos disponibles.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Completa todas las actividades simultáneamente.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Elimina todas las reservas.',
               esCorrecta: false,
             },
           ],
@@ -92,28 +89,28 @@ export default {
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
-          imagen: '@/assets/actividad/imagen1.png',
+          texto: '¿Qué caracteriza a un paquete de trabajo?',
+          imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Es una actividad del cronograma.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Es el nivel más bajo de la EDT.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Es una reserva de gestión.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Es un informe financiero.',
               esCorrecta: false,
             },
           ],
@@ -122,29 +119,28 @@ export default {
         },
         {
           id: 4,
-          texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+          texto: '¿Cuál es la función del diccionario de la EDT?',
+          imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Calcular automáticamente la ruta crítica.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Describir cada elemento de la estructura.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Registrar únicamente los costos reales.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Definir solo las fechas contractuales.',
               esCorrecta: false,
             },
           ],
@@ -153,28 +149,28 @@ export default {
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+          texto: '¿Qué permite la planificación gradual del trabajo?',
+          imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'Detallar según la información disponible.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Eliminar la aprobación de cambios.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Definir todo con igual detalle.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Modificar libremente el alcance.',
               esCorrecta: false,
             },
           ],
@@ -183,29 +179,28 @@ export default {
         },
         {
           id: 6,
-          texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
+          texto: '¿A partir de qué se definen las actividades del proyecto?',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'De los paquetes de trabajo.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'De los costos reales.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'De las reservas de gestión.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'De los informes finales.',
               esCorrecta: false,
             },
           ],
@@ -214,29 +209,28 @@ export default {
         },
         {
           id: 7,
-          texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+          texto: '¿Qué representa un hito dentro del cronograma?',
+          imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Una actividad con recursos ilimitados.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Un punto significativo de duración cero.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Una reserva para riesgos identificados.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Un costo distribuido en el tiempo.',
               esCorrecta: false,
             },
           ],
@@ -245,29 +239,28 @@ export default {
         },
         {
           id: 8,
-          texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
-          imagen: '@/assets/actividad/imagen2.png',
+          texto: '¿Para qué se establecen dependencias entre actividades?',
+          imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'Para representar el orden lógico del trabajo.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Para reemplazar la EDT.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Para aumentar automáticamente el presupuesto.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Para eliminar los calendarios.',
               esCorrecta: false,
             },
           ],
@@ -276,29 +269,28 @@ export default {
         },
         {
           id: 9,
-          texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
-          imagen: '@/assets/actividad/imagen3.png',
+          texto: '¿Qué factores condicionan la duración de una actividad?',
+          imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Solo la cantidad de trabajo.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Trabajo, calendarios y disponibilidad de recursos.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Solo el presupuesto aprobado.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Únicamente las fechas contractuales.',
               esCorrecta: false,
             },
           ],
@@ -307,29 +299,28 @@ export default {
         },
         {
           id: 10,
-          texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: '@/assets/actividad/imagen3.png',
+          texto: '¿Qué debe hacerse ante una sobreasignación de recursos?',
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Ignorarla hasta finalizar el proyecto.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Ajustar asignaciones o programación.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Eliminar la línea base.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Duplicar el alcance aprobado.',
               esCorrecta: false,
             },
           ],
@@ -338,29 +329,29 @@ export default {
         },
         {
           id: 11,
-          texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
+          texto: '¿Qué integra el desarrollo del cronograma?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto:
+                'Actividades, relaciones, duraciones, calendarios y recursos.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Solo fechas y costos reales.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Únicamente hitos y reservas.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Solo entregables y responsables.',
               esCorrecta: false,
             },
           ],
@@ -369,29 +360,28 @@ export default {
         },
         {
           id: 12,
-          texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
-          imagen: '@/assets/actividad/imagen3.png',
+          texto: '¿Qué caracteriza a una actividad crítica?',
+          imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Dispone de amplia holgura.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Forma parte de la ruta crítica y no tiene holgura.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Siempre utiliza reserva de gestión.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'No afecta la fecha final.',
               esCorrecta: false,
             },
           ],
@@ -400,29 +390,28 @@ export default {
         },
         {
           id: 13,
-          texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
+          texto: '¿Qué incluye la línea base de costos?',
+          imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'Estimaciones y reservas de contingencia.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Solo costos reales registrados.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Estimaciones y reserva de gestión.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Solo tarifas de personal.',
               esCorrecta: false,
             },
           ],
@@ -431,29 +420,29 @@ export default {
         },
         {
           id: 14,
-          texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
-          imagen: '@/assets/actividad/imagen4.png',
+          texto: '¿Para qué se utiliza una línea base?',
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto:
+                'Para comparar el desempeño real con la planificación aprobada.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Para sustituir el alcance aprobado.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Para registrar únicamente riesgos.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Para eliminar variaciones.',
               esCorrecta: false,
             },
           ],
@@ -462,29 +451,178 @@ export default {
         },
         {
           id: 15,
-          texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
+          texto: '¿Qué representa la fecha de estado?',
+          imagen: '@/assets/actividad/imagen3.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'El cierre contractual del proyecto.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'El punto de referencia para analizar el avance.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'La fecha de aprobación del alcance.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'El inicio de la ruta crítica.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 16,
+          texto: '¿Qué debe reflejar el porcentaje completado?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Una percepción del responsable.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Una condición real y verificable.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Una estimación sin evidencia.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'El presupuesto total aprobado.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 17,
+          texto: '¿Qué representa el valor ganado (VG)?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'El presupuesto del trabajo realmente completado.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'El costo efectivamente utilizado.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'El presupuesto del trabajo pendiente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'La reserva para eventos no identificados.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 18,
+          texto: '¿Cómo se calcula la variación del cronograma?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'VG − VP.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'VG − CR.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'VG ÷ VP.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'VG ÷ CR.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 19,
+          texto: '¿Qué indica un índice de desempeño menor que 1?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Desempeño conforme a lo planificado.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Desempeño inferior al previsto.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Ausencia de línea base.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Aprobación automática de cambios.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 20,
+          texto: '¿Cuándo debe actualizarse una línea base?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Ante cualquier desviación detectada.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Solo mediante un cambio formalmente aprobado.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Cada vez que se registra avance.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Antes de calcular el costo real.',
               esCorrecta: false,
             },
           ],
