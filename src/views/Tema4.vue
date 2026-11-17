@@ -189,7 +189,7 @@
                   td.ajuste-border-tabla.texto-left.text-weight-bold Total estimado
                   td.ajuste-border-tabla.texto-left -
                   td.texto-left.text-weight-bold $4.100.000 COP
-      p.mb-0 Después de ingresar los valores se comprueba que la moneda sea correcta, que las tarifas correspondan al periodo, que no existan recursos duplicados, que las cantidades sean coherentes, que los costos estén asociados a las actividades y que se hayan considerado los impuestos o cargos aplicables. La estimación debe actualizarse cuando cambian las cantidades, las tarifas, las duraciones o los recursos.
+      p.mb-0 Después de ingresar los valores, se comprueba que la moneda sea correcta, que las tarifas correspondan al periodo, que no existan recursos duplicados, que las cantidades sean coherentes, que los costos estén asociados a las actividades y que se hayan considerado los impuestos o cargos aplicables. La estimación debe actualizarse cuando cambian las cantidades, las tarifas, las duraciones o los recursos.
       Separador
       #t_4_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
         h2 4.4 Reservas de contingencia y de gestión
@@ -203,7 +203,7 @@
                   img(src='@/assets/curso/temas/t4/img14.png', alt="" ).m-auto
               h4 Reserva de contingencia
               .box___card_sinbordes_p
-                p.mb-0 Se asigna para responder a riesgos identificados y analizados durante la planificación, y se relaciona con actividades o cuentas de control. Forma parte de la línea base de costos. Por ejemplo, si existe el riesgo de aumento en el valor de determinados insumos, puede establecerse una reserva asociada a esa posible variación.
+                p.mb-0 Se asigna para responder a riesgos identificados y analizados durante la planificación; y se relaciona con actividades o cuentas de control. Forma parte de la línea base de costos. Por ejemplo, si existe el riesgo de aumento en el valor de determinados insumos, puede establecerse una reserva asociada a esa posible variación.
         .col-xl-6.col-md-9(data-aos="fade-left")
           .box___card_sinbordes.h-100.color___4
             .row.justify-content-center.mb-3

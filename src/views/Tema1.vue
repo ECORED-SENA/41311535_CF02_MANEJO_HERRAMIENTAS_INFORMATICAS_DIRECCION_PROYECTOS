@@ -426,7 +426,7 @@
       Separador
       #t_1_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
         h2 1.5 Construcción y validación de la EDT en el #[i software]
-      p.mb-5 La herramienta informática permite representar la EDT mediante tareas resumen, esquemas jerárquicos, códigos, sangrías, tablas o diagramas, según las funciones del #[i software] utilizado. La construcción debe realizarse a partir de la estructura previamente analizada, porque crear elementos directamente en la aplicación sin haber definido los entregables y los paquetes de trabajo puede producir inconsistencias difíciles de corregir. Antes de iniciar se requiere contar con el alcance aprobado, la descomposición acordada, los códigos, las cuentas de control, los responsables preliminares y el diccionario inicial. El ingreso puede realizarse mediante el siguiente procedimiento:
+      p.mb-5 La herramienta informática permite representar la EDT mediante tareas resumen, esquemas jerárquicos, códigos, sangrías, tablas o diagramas, según las funciones del #[i software] utilizado. La construcción debe realizarse a partir de la estructura previamente analizada, porque crear elementos directamente en la aplicación sin haber definido los entregables y los paquetes de trabajo puede producir inconsistencias difíciles de corregir. Antes de iniciar, se requiere contar con el alcance aprobado, la descomposición acordada, los códigos, las cuentas de control, los responsables preliminares y el diccionario inicial. El ingreso puede realizarse mediante el siguiente procedimiento:
       .bg___color_2
         .px-5
           .row.justify-content-center.mb-5

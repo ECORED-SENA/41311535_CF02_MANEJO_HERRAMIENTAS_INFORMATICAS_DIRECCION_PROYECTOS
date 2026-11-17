@@ -16,7 +16,7 @@
       p.mb-5 La duración de una actividad no depende únicamente de la cantidad de trabajo, sino que también está condicionada por la experiencia del equipo, la complejidad técnica, los calendarios, las dependencias, las restricciones y la disponibilidad de los recursos. Por esta razón, las estimaciones deben sustentarse en información verificable. La planificación de los recursos, por su parte, comprende identificar los recursos requeridos, estimar la cantidad necesaria, verificar su disponibilidad, asignarlos a las actividades y corregir las posibles sobreasignaciones.
       #t_3_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
         h2 3.1 Estimación análoga y paramétrica de duraciones
-      p.mb-5 La #[b duración] es el periodo de tiempo necesario para completar una actividad según el calendario que le corresponde, y puede expresarse en horas, días, semanas o meses. No debe confundirse con el trabajo, que representa el esfuerzo que deben aportar los recursos. Antes de estimar se consideran el alcance de la actividad, su complejidad técnica, la cantidad de trabajo, la experiencia del equipo, la disponibilidad de recursos, los calendarios aplicables y el nivel de incertidumbre. Las dos técnicas de estimación más utilizadas se presentan a continuación:
+      p.mb-5 La #[b duración] es el periodo de tiempo necesario para completar una actividad según el calendario que le corresponde, y puede expresarse en horas, días, semanas o meses. No debe confundirse con el trabajo, que representa el esfuerzo que deben aportar los recursos. Antes de estimar, se consideran el alcance de la actividad, su complejidad técnica, la cantidad de trabajo, la experiencia del equipo, la disponibilidad de recursos, los calendarios aplicables y el nivel de incertidumbre. Las dos técnicas de estimación más utilizadas se presentan a continuación:
       .bg___slider.mb-5
         .px-5
           .ajuste-slider(data-aos="zoom-in")
@@ -120,7 +120,7 @@
       Separador
       #t_3_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
         h2 3.4 Asignación y disponibilidad de recursos
-      p La #[b asignación] consiste en relacionar los recursos con las actividades que deben ejecutar. Esta acción permite calcular el trabajo, revisar la disponibilidad y preparar posteriormente la estimación de costos. Antes de asignar un recurso se comprueba que posea la competencia requerida, que se encuentre disponible en las fechas previstas, que su calendario sea compatible con la actividad, que no tenga compromisos simultáneos incompatibles, que su participación esté autorizada y que la cantidad asignada sea suficiente.
+      p La #[b asignación] consiste en relacionar los recursos con las actividades que deben ejecutar. Esta acción permite calcular el trabajo, revisar la disponibilidad y preparar posteriormente la estimación de costos. Antes de asignar un recurso, se comprueba que posea la competencia requerida, que se encuentre disponible en las fechas previstas, que su calendario sea compatible con la actividad, que no tenga compromisos simultáneos incompatibles, que su participación esté autorizada y que la cantidad asignada sea suficiente.
       p.mb-5 La asignación se expresa mediante #[b unidades] o porcentajes. Una persona disponible a tiempo completo se representa con el 100 %, y una participación de media jornada, con el 50 %. La herramienta relaciona tres variables: duración, trabajo y unidades de asignación. Cuando se modifica una de ellas, las demás pueden cambiar según las opciones de programación; por eso, antes de realizar ajustes se debe comprender qué variable permanecerá fija. El siguiente ejemplo muestra esta relación:
       .row.justify-content-center.mb-5
         .col-xl-6
@@ -217,7 +217,7 @@
                   img(src='@/assets/curso/temas/t3/img18.svg', alt="" style="max-width: 90px").m-auto
             h3.text-center Nivelar los recursos
             p.mb-0.text-center Redistribuir las actividades para que la carga no supere la disponibilidad, de forma manual o mediante la función automática de la herramienta.
-      p.mb-5 La #[b nivelación automática] debe utilizarse con precaución, porque puede modificar fechas, dividir tareas o consumir holguras. Después de ejecutarla se revisan la nueva fecha de finalización, las actividades desplazadas, los hitos afectados, la ruta crítica, las restricciones y los costos asociados. En todos los casos, la opción seleccionada debe conservar la calidad, el alcance y las restricciones del proyecto. Para atender una sobreasignación se recomienda el siguiente procedimiento:
+      p.mb-5 La #[b nivelación automática] debe utilizarse con precaución, porque puede modificar fechas, dividir tareas o consumir holguras. Después de ejecutarla, se revisan la nueva fecha de finalización, las actividades desplazadas, los hitos afectados, la ruta crítica, las restricciones y los costos asociados. En todos los casos, la opción seleccionada debe conservar la calidad, el alcance y las restricciones del proyecto. Para atender una sobreasignación se recomienda el siguiente procedimiento:
       .row.justify-content-center.align-items-center.mb-5
         .col-xl.mb-4.mb-lg-0
           LineaTiempoD.color-primario(data-aos="fade-right")

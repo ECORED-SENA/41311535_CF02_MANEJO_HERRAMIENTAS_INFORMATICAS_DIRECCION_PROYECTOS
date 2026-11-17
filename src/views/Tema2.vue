@@ -102,7 +102,7 @@
                   .col-auto(data-aos="zoom-in")
                     figure
                       img(src='@/assets/curso/temas/t2/img6.svg', alt='' style="width: 190px").m-auto
-      p.mb-0 La lista debe revisarse antes de estimar las duraciones, ya que, cuando falta una actividad, las fechas y los costos calculados dejan de representar el trabajo real.
+      p.mb-0 La lista debe revisarse antes de estimar las duraciones, ya que cuando falta una actividad, las fechas y los costos calculados dejan de representar el trabajo real.
       Separador
       #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
         h2 2.2 Hitos y actividades resumen
@@ -292,7 +292,7 @@
                   td.ajuste-border-tabla.texto-left.text-weight-bold Fin
                   td.ajuste-border-tabla.texto-left Aprobar solución
                   td.texto-left Finalización del proyecto
-      p.mb-5 En este ejemplo, el diseño y la infraestructura se desarrollan de manera paralela, y la configuración solo puede comenzar cuando ambas actividades hayan finalizado. La red debe construirse a partir de la lista de actividades y no de supuestos no documentados. Para elaborarla se identifica el inicio del proyecto, se organizan las actividades según su secuencia, se representan las relaciones, se incorporan los hitos, se muestran las actividades paralelas y las dependencias externas, y se verifica la continuidad hasta la finalización.
+      p.mb-5 En este ejemplo, el diseño y la infraestructura se desarrollan de manera paralela, y la configuración solo puede comenzar cuando ambas actividades hayan finalizado. La red debe construirse a partir de la lista de actividades y no de supuestos no documentados. Para elaborarla, se identifica el inicio del proyecto, se organizan las actividades según su secuencia, se representan las relaciones, se incorporan los hitos, se muestran las actividades paralelas y las dependencias externas, y se verifica la continuidad hasta la finalización.
       .box___color-text-imgleft(data-aos="zoom-in").mb-0
         .row.align-items-center
           .col-xl-auto

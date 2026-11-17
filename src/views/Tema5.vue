@@ -223,7 +223,7 @@
                       img(src='@/assets/curso/temas/t5/img21.svg' style="max-width: 90px").m-auto
                   h4.mb-3.estilo-text De excepciones
                   p.mb-0.text-center Destacan las desviaciones que superan los límites establecidos.
-      p.mb-0 Antes de emitir un informe se verifica que los datos estén actualizados, que la fecha de estado sea correcta, que la versión corresponda al archivo oficial, que las variaciones estén explicadas, que las cifras coincidan con los registros financieros y que las acciones tengan responsable y plazo. Un informe no debe limitarse a mostrar datos, sino interpretar la situación. No basta con indicar que una actividad presenta cinco días de retraso; se debe explicar la causa, el efecto sobre la ruta crítica y la acción propuesta. La periodicidad de los informes se define en el plan de gestión; en proyectos cortos puede requerirse un seguimiento semanal, y en proyectos de mayor duración, quincenal o mensual.
+      p.mb-0 Antes de emitir un informe, se verifica que los datos estén actualizados, que la fecha de estado sea correcta, que la versión corresponda al archivo oficial, que las variaciones estén explicadas, que las cifras coincidan con los registros financieros y que las acciones tengan responsable y plazo. Un informe no debe limitarse a mostrar datos, sino interpretar la situación. No basta con indicar que una actividad presenta cinco días de retraso; se debe explicar la causa, el efecto sobre la ruta crítica y la acción propuesta. La periodicidad de los informes se define en el plan de gestión; en proyectos cortos puede requerirse un seguimiento semanal, y en proyectos de mayor duración, quincenal o mensual.
 
 </template>
 
